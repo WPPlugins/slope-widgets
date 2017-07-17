@@ -1,0 +1,21 @@
+.slope-block {
+  display: inline-block;
+  padding: 1.25rem;
+}
+
+.slope-block label {
+  display: block;
+  font-size: 0.825rem;
+}
+
+.slope-block select {
+  min-width: 75px;
+}
+
+.slope-block #arrival {
+  max-width: 175px;
+}
+
+.slope-block #departure {
+  max-width: 175px;
+}

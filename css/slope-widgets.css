@@ -1,0 +1,86 @@
+.ui-datepicker {
+  z-index: 9999 !important;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default {
+  background: #e6e6e6 !important;
+  transition: all 0.2s ease;
+}
+
+.ui-state-highlight, .ui-widget-content .ui-state-highlight {
+  background: #fbf9ee !important;
+  transition: all 0.2s ease;
+}
+
+.ui-widget-header {
+  border: 0px !important;
+  background: transparent !important;
+}
+
+.ui-widget {
+  font-family: inherit !important;
+  font-size: 1.1em !important;
+}
+
+.slope-widgets-container {
+  text-align: center;
+}
+
+/* Sovrascrive le regole del tema solo per gli elementi che appartengono a .slope-block */
+
+.slope-block #arrival {
+  height: 30px;
+}
+
+.slope-block #departure {
+  height: 30px;
+}
+
+.slope-block input[type="text"] {
+  color: inherit !important;
+  padding: 0 !important;
+  background-color: initial !important;
+  border: 0 !important;
+  outline: 0 !important;
+  margin-bottom: 0 !important;
+  cursor: default !important;
+  outline: 0 !important;
+  border: 1px solid #c3c3c3 !important;
+  font-size: inherit !important;
+  margin-bottom: 0 !important;
+  min-height: 0 !important;
+}
+
+.slope-block select {
+  background-color: white !important;
+  font-weight: normal !important;
+  height: 38px !important;
+  border: 1px solid #c3c3c3 !important;
+  background: white !important;
+  cursor: default !important;
+  -webkit-appearance: menulist !important;
+  -moz-appearance: menuitemtext !important;
+  appearance: menulist !important;
+  padding: initial !important;
+  font-size: initial !important;
+  line-height: normal !important;
+  color: initial !important;
+  border-radius: 0 !important;
+  font-weight: normal !important;
+  min-width: 75px !important;
+  max-width: initial !important;
+}
+
+.slope-block input[type="submit"] {
+  padding: 12px 20px !important;
+  border: 0 !important;
+  outline: 0 !important;
+  margin-bottom: 0 !important;
+  font-size: inherit !important;
+  margin-bottom: 0 !important;
+  min-height: 30px !important;
+}
+
+.slope-block label {
+  text-align: left;
+}
